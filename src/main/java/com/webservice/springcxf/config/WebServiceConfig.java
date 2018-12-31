@@ -17,7 +17,7 @@ import javax.xml.ws.Endpoint;
  */
 @Configuration
 public class WebServiceConfig {
-   /* @Autowired
+    @Autowired
     private Bus bus;
 
     @Autowired
@@ -29,6 +29,6 @@ public class WebServiceConfig {
         Endpoint endpoint = new EndpointImpl(bus,myTestService);    //创建Endpoint实例
         endpoint.publish("/myService");                     //设置发布地址并发布
         return endpoint;
-    }*/
+    }
 
 }
